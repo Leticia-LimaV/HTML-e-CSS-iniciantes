@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  color: #febe01;
+}
+
+#carro,
+#bike {
+  background: #111;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+#comprar1,
+#comprar2 {
+  display: inline-block;
+  background-color: #febf01ec;
+  padding: 10px;
+  color: #111;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#modelo1,
+#modelo2 {
+  color: #b2b2b2;
+}
