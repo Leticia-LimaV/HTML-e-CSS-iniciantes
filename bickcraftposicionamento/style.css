@@ -29,6 +29,7 @@ a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
 }
 
 #a1 {
@@ -42,4 +43,9 @@ a {
 img {
   max-width: 100%;
   border-radius: 4px;
+}
+
+.info {
+  padding: 20px;
+  background-color: white;
 }
