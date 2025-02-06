@@ -1,0 +1,12 @@
+div {
+  height: 200px;
+}
+
+.linear {
+  background-image: linear-gradient(to right, purple, pink, lightblue);
+}
+
+.radial {
+  margin-top: 200px;
+  background-image: radial-gradient(circle, purple, pink, lightblue);
+}
