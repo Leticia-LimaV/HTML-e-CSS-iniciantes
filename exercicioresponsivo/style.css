@@ -140,13 +140,13 @@ p {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
 
-.subtitulo {
-  text-align: center;
-  color: rgba(0, 0, 0, 0.2);
-  padding: 40px;
-  font-size: 4rem;
-  align-self: center;
-  background-image: url("/imagem/onda.svg");
+  .subtitulo {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    font-size: 4rem;
+    align-self: center;
+    background-image: url("/imagem/onda.svg");
+  }
 }
