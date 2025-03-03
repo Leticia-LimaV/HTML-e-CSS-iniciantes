@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 35px;
+}
+
+.checkbox,
+.radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.checkbox label,
+.radio label {
+  margin: 0px;
+}
+
+.checkbox input,
+.radio input {
+  margin: 0px;
+}

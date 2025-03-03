@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
         <input type="text" name="cpf" id="cpf">
 
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
 
         <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha">
+        <input type="password" name="senha" id="senha" disabled>
 
         <label for="data">Data</label>
         <input type="date" name="data" id="data">
@@ -29,6 +30,41 @@
         <label for="idade">Idade</label>
         <input type="number" name="idade" id="idade">
         <button>Enviar</button>
+
+        <div class="checkbox">
+            <input type="checkbox" name="marketing" id="marketing" value="marketing">
+            <label for="marketing">Desejo receber avisos de promoções</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">Li os termos e condições.</label>
+        </div>
+
+        <p>Retirada:</p>
+        <div class="radio">
+            <input type="radio" id="retirada" name="retirada">
+            <label for="retirada">Retirar no local.</label>
+        </div>
+
+        <p>Entrega:</p>
+        <div class="radio">
+            <input type="radio" id="entrega" name="entrega">
+            <label for="entrega">Entrega em casa.</label>
+        </div>
+
+        <p>Futuro:</p>
+        <div class="radio">
+            <input type="radio" id="retirada2" name="retirada2">
+            <label for="retirada2">Retirar no local.</label>
+        </div>
+        <div class="radio">
+            <input type="radio" id="entrega2" name="entrega2">
+            <label for="entrega2">Entrega em casa.</label>
+        </div>
+
+
+
     </form>
 </body>
 
